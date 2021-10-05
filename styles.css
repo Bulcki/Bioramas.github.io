@@ -1,0 +1,55 @@
+body{
+    font-family: 'Mulish', sans-serif;
+    height: 100%;
+}
+.logo{
+    font-family: 'Passion One', sans-serif;
+}
+h1{
+    font-family: none;
+}
+.top-bar ul{
+    background-color: none;
+}
+.users{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+}
+.nature{
+    width: 100%;
+    height: calc(100vh - 60px);
+    /* l'image doit s'adapter à son conteneur en utilisant sa largeur et sa hauteur. */
+    object-fit: cover;
+}
+.size{
+    border-radius: 20px;
+    width: 27%;
+    margin: 0 37%;
+}
+.runded{
+    border-radius: 20px;
+    margin-top: 16px;
+}
+.border{
+    border-top: 1px solid gray;
+    padding: 5% 5% 0 5%;
+}
+.border-bottom{
+    padding: 0 0 5% 0;
+}
+.margin-b{
+    margin-bottom: 30px;
+}
+.reseaux{
+    font-size: 30px;;
+}
+.size{
+    width: 25%;
+}
+.radius{
+    border-radius: 20px;
+}
+.fond-site{
+    background-color: #f8f4ed;
+}
